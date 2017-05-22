@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html> 
+ <!-- <script type="text/javascript" src="/code_examples/passtest.js"></script> lol nope what is this
+ 
+ hi guys so i had a macro so lol so i just changed the numbers haha have fun with dupes-->
+<head><h1>Welcome to the demo!</h1></head>
+<br>
+
+<body>
+What is nine plus ten?
+<div>
+    <form>
+      
+		<div>
+            <label for="answer1">Answer:</label>
+            <input type="password1" name="answer1" id="answer1" onkeyup="checkPass1(); return false;"><br>
+            <span id="confirmMessage1" class="confirmMessage1"></span>
+        </div>
+        
+    </form>
+</div>
+
+
+<br>
+Fill in the blank: 1, 2, __ , 4
+
+<div>
+    <form>
+      
+		<div>
+            <label for="answer2">Answer:</label>
+            <input type="password2" name="answer2" id="answer2" onkeyup="checkPass2(); return false;"><br>
+            <span id="confirmMessage2" class="confirmMessage2"></span>
+        </div>
+        
+    </form>
+</div>
+
+<br>
+Pi is often expressesd as the fraction 22/n. What is n?
+<div>
+    <form>
+      
+		<div>
+            <label for="answer3">Answer:</label>
+            <input type="password3" name="answer3" id="answer3" onkeyup="checkPass3(); return false;"><br>
+            <span id="confirmMessage3" class="confirmMessage3"></span>
+        </div>
+        
+    </form>
+</div>
+
+
+<!-- JS stuff is down here bro -->
+
+<script>
+function checkPass1()
+{
+    //Store the password field objects into variables ...
+	var pass1 = 19
+    //Store the Confimation Message Object ...
+    var message1 = document.getElementById('confirmMessage1');
+    //Set the colors we will be using ...
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    //Compare the values in the password field 
+    //and the confirmation field
+    
+	if(answer1.value == 19){
+		answer1.style.backgroundColor = goodColor;
+		message1.style.color = goodColor;
+        message1.innerHTML = "That is right! Here is your clue: Alpha"
+	}
+	else{
+		answer1.style.backgroundColor = badColor;
+		message1.style.color = badColor;
+        message1.innerHTML = "Incorrect. Please try again."
+		}
+	
+	/* if(pass1.value == pass2.value){
+        //The passwords match. 
+        //Set the color to the good color and inform
+        //the user that they have entered the correct password 
+        pass2.style.backgroundColor = goodColor;
+        message.style.color = goodColor;
+        message.innerHTML = "Passwords Match!"
+    }else{
+        //The passwords do not match.
+        //Set the color to the bad color and
+        //notify the user.
+        pass2.style.backgroundColor = badColor;
+        message.style.color = badColor;
+        message.innerHTML = "Passwords Do Not Match!"
+    } */
+}  
+
+function checkPass2()
+{
+    //Store the password field objects into variables ...
+	var pass2 = 3
+    //Store the Confimation Message Object ...
+    var message2 = document.getElementById('confirmMessage2');
+    //Set the colors we will be using ...
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    //Compare the values in the password field 
+    //and the confirmation field
+    
+	if(answer2.value == 3){
+		answer2.style.backgroundColor = goodColor;
+		message2.style.color = goodColor;
+        message2.innerHTML = "That is right! Here is your clue: Beta"
+	}
+	else{
+		answer2.style.backgroundColor = badColor;
+		message2.style.color = badColor;
+        message2.innerHTML = "Incorrect. Please try again."
+		}
+	
+	/* if(pass2.value == pass2.value){
+        //The passwords match. 
+        //Set the color to the good color and inform
+        //the user that they have entered the correct password 
+        pass2.style.backgroundColor = goodColor;
+        message.style.color = goodColor;
+        message.innerHTML = "Passwords Match!"
+    }else{
+        //The passwords do not match.
+        //Set the color to the bad color and
+        //notify the user.
+        pass2.style.backgroundColor = badColor;
+        message.style.color = badColor;
+        message.innerHTML = "Passwords Do Not Match!"
+    } */
+}  
+
+function checkPass3()
+{
+    //Store the password field objects into variables ...
+	var pass3 = 7
+    //Store the Confimation Message Object ...
+    var message3 = document.getElementById('confirmMessage3');
+    //Set the colors we will be using ...
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    //Compare the values in the password field 
+    //and the confirmation field
+    
+	if(answer3.value == 7){
+		answer3.style.backgroundColor = goodColor;
+		message3.style.color = goodColor;
+        message3.innerHTML = "That is right! Here is your clue: Gamma"
+	}
+	else{
+		answer3.style.backgroundColor = badColor;
+		message3.style.color = badColor;
+        message3.innerHTML = "Incorrect. Please try again."
+		}
+	
+	/* if(pass3.value == pass2.value){
+        //The passwords match. 
+        //Set the color to the good color and inform
+        //the user that they have entered the correct password 
+        pass2.style.backgroundColor = goodColor;
+        message.style.color = goodColor;
+        message.innerHTML = "Passwords Match!"
+    }else{
+        //The passwords do not match.
+        //Set the color to the bad color and
+        //notify the user.
+        pass2.style.backgroundColor = badColor;
+        message.style.color = badColor;
+        message.innerHTML = "Passwords Do Not Match!"
+    } */
+}  
+
+</script>
+
+
+</body>
+</html>
