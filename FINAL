@@ -1,0 +1,971 @@
+<!DOCTYPE HTML>
+<html> 
+ <!-- <script type="text/javascript" src="/code_examples/passtest.js"></script> lol nope what is this
+ 
+ hi guys so i had a macro so lol so i just changed the numbers haha have fun with dupes-->
+
+ 
+ <!-- hi guys. if you're in inspect element, tell a staff member the secret code "CHICKEN" for a special surprise :)
+
+	A E S T H E T I C-->	
+<!--REMEMBER TO CHANGE BACK PLACEHOLDER VALUES
+
+1,3,5,6,8++
+basically just check over everything anyway cuz idek which ones i placeholded anymore
+JOKES most of these are placeholder answers-->
+<style>
+body { 
+    background: #000000;
+	color: white;
+}
+* {
+ font-size: 100%;
+ font-family: Courier New;
+ }
+ 
+
+</style>
+<head>
+
+
+</head>
+<body onload="stealth()">
+Press SPACE to begin.
+<div id= "l1">Entering CSSMA servers...</div>
+<div id= "l2">Retrieving files...</div>
+<div id= "l3">Decrypting...</div>
+<div id= "l4">Initializing...</div>
+<div id= "l5">Ready.</div>
+<div id= "tag1">
+<span> Q1: The sacred golden pie has been stolen. Your team’s mission is to find the thief. Type “we accept” to start your mission. 
+
+    <form>
+    
+		<div>
+            <label for="answer1">Answer:</label>
+            <input type="value" name="answer1" id="answer1" onkeyup="checkPass1(); return false;"><br>
+            <span id="confirmMessage1" class="confirmMessage1"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+
+<br>
+
+<div id= "tag2">
+<span> Q2: Aol khal lewylzzlk pu tkk mvyt aptlz aol ubtily vm zahmm tltilyz wylzlua
+    <form>
+      
+		<div>
+            <label for="answer2">Answer:</label>
+            <input type="value" name="answer2" id="answer2" onkeyup="checkPass2(); return false;"><br>
+            <span id="confirmMessage2" class="confirmMessage2"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag3">
+<span> Q3: Pi is often expressesd as the fraction 22/n. What is n?
+    <form>
+      
+		<div>
+            <label for="answer3">Answer:</label>
+            <input type="value" name="answer3" id="answer3" onkeyup="checkPass3(); return false;"><br>
+            <span id="confirmMessage3" class="confirmMessage3"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag4">
+<span> Q4: You have three bags, each containing two golf balls. 
+		Bag 1 contains two white golf balls, Bag 2 contains two yellow golf balls, 
+		and Bag 3 contains one white ball and one yellow ball. 
+		You pick a random bag and take out one ball. It is a white. 
+		What is the probability that the remaining golf ball from the same bag is also white?
+    <form>
+      
+		<div>
+            <label for="answer4">Answer:</label>
+            <input type="value" name="answer4" id="answer4" onkeyup="checkPass4(); return false;"><br>
+            <span id="confirmMessage4" class="confirmMessage4"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag5">
+<span> Q5: Find a staff member, tell them the code .--.  ..  . (in letters) They will give you a question.
+    <form>
+      
+		<div>
+            <label for="answer5">Answer:</label>
+            <input type="value" name="answer5" id="answer5" onkeyup="checkPass5(); return false;"><br>
+            <span id="confirmMessage5" class="confirmMessage5"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag6">
+<span> Q6: The thief also stole some bottles of aloe vera drinks 
+and cream flavoured veggie chips from the Burnett vending machine. 
+If the total loss from goods that should have been sold was $, 
+how many bottles of aloe vera drinks and how many veggie chip packs were stolen each? 
+Answer in #aloe vera, #veggie chips format (e.g. 10,6)
+    <form>
+      
+		<div>
+            <label for="answer6">Answer:</label>
+            <input type="value" name="answer6" id="answer6" onkeyup="checkPass6(); return false;"><br>
+            <span id="confirmMessage6" class="confirmMessage6"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag7">
+<span> Q7: Find a staff member say the code “-.--  ---  .-.  --  ..-  .-..  .-” (in letters), 
+then show them the how many pieces of pie you can cut if you make n slices formula. 
+Enter the password they give you.
+    <form>
+      
+		<div>
+            <label for="answer7">Answer:</label>
+            <input type="value" name="answer7" id="answer7" onkeyup="checkPass7(); return false;"><br>
+            <span id="confirmMessage7" class="confirmMessage7"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag8">
+<span> Q8: ..-.  ..  -.  -../__________/.  -.  -  .  .-./….  ..  .../-.-.  ---  ---  .-.  -..  ..  -.  .-  -  .  …
+    <form>
+      
+		<div>
+            <label for="answer8">Answer:</label>
+            <input type="value" name="answer8" id="answer8" onkeyup="checkPass8(); return false;"><br>
+            <span id="confirmMessage8" class="confirmMessage8"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag9">
+<span> Q9: Welson Ma claims to have seen someone suspicious running away with a sparkling pie. 
+The thief wanted to run away from William Ma as fast as possible. 
+If the thief was spotted again by Jessica Sun five blocks south and six blocks east 
+from where the thief was first spotted, 
+nd the thief only ran south or east at the intersection of each block, 
+how many paths could the thief have taken to get from Welson Ma to Jessica Sun?
+***If you give staff coordinates of Jessica Sun you will receive a diagram of the street pathways
+    <form>
+      
+		<div>
+            <label for="answer9">Answer:</label>
+            <input type="value" name="answer9" id="answer9" onkeyup="checkPass9(); return false;"><br>
+            <span id="confirmMessage9" class="confirmMessage9"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag10">
+<span> Q10: Your team finds a note on one of these possible paths. 
+It reads “security file, #628, Bank of Burnett. 
+(-...  .-  -.  -.-/---  ..-./-...  ..-  .-.  -.  .  -  -/..  …  -.-.  .-  -  .  -../..-  .--./….  ..  --.  ….) 
+You go to a staff member at the Bank and tell them this number 
+and that you are looking for a security file. 
+Enter the final number they give you. 
+    <form>
+      
+		<div>
+            <label for="answer10">Answer:</label>
+            <input type="value" name="answer10" id="answer10" onkeyup="checkPass10(); return false;"><br>
+            <span id="confirmMessage10" class="confirmMessage10"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag11">
+<span> Q11: Open the lock on the locker. Decode problem and solve. Enther the solution here:
+    <form>
+      
+		<div>
+            <label for="answer11">Answer:</label>
+            <input type="value" name="answer11" id="answer11" onkeyup="checkPass11(); return false;"><br>
+            <span id="confirmMessage11" class="confirmMessage11"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag12">
+<span> Q12: What is the slope between Betsy and Gregory? 
+    <form>
+      
+		<div>
+            <label for="answer12">Answer:</label>
+            <input type="value" name="answer12" id="answer12" onkeyup="checkPass12(); return false;"><br>
+            <span id="confirmMessage12" class="confirmMessage12"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag13">
+<span> Q13: Sean Rong, a random person, gets hungry and stands in your way 
+(he is very tall so you cannot get past him) 
+He wants to buy a CLIF bar from the vending machine and has 
+10100 (20) nickels, 1010 (10) quarters, 10 loonies, and 1 toonie. 
+He insists on finding exact change and demands to know how many different ways he can pay for the CLIF bar. 
+(He is really just Gandalf in disguise). 
+***All the numbers are in binary so you must first change them to decimal notation. 
+Also, please express the final # of ways in binary. 
+    <form>
+      
+		<div>
+            <label for="answer13">Answer:</label>
+            <input type="value" name="answer13" id="answer13" onkeyup="checkPass13(); return false;"><br>
+            <span id="confirmMessage13" class="confirmMessage13"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag14">
+<span> Q14: Nvt rz gjqz hvoc qzmt gjpygt viy novaa hzhwzmn rdgg xjhz oj bdqz tjp nkzxdvg xjyz oj ziozm.
+    <form>
+      
+		<div>
+            <label for="answer14">Answer:</label>
+            <input type="value" name="answer14" id="answer14" onkeyup="checkPass14(); return false;"><br>
+            <span id="confirmMessage14" class="confirmMessage14"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag15">
+<span> Q15: Hai im a placeholder. kate needs to figure this out. 
+    <form>
+      
+		<div>
+            <label for="answer15">Answer:</label>
+            <input type="value" name="answer15" id="answer15" onkeyup="checkPass15(); return false;"><br>
+            <span id="confirmMessage15" class="confirmMessage15"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag16">
+<span> Q16: The pie was stolen at 3:14 pm. 
+However, people didn’t realize it. 
+When people finally realized the pie was stolen, 
+the angle between the minute hand and hour hand was 90.5 degrees. 
+If they realize the pie was stolen between half an hour and one hour of the actual robbery, 
+when did they realize the pie was stolen?
+    <form>
+      
+		<div>
+            <label for="answer16">Answer:</label>
+            <input type="value" name="answer16" id="answer16" onkeyup="checkPass16(); return false;"><br>
+            <span id="confirmMessage16" class="confirmMessage16"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag17">
+<span> Q17: Around that time, a shipment to the caf arrived in the form of a box consisting of Lay’s and japadogs, 
+the box shows 36% of the total retail potential consists of Lay’s and the rest is japadog. 
+You must figure out the content amounts before the cafeteria staff will let you open the box. 
+If the retail price of a Lay’s Original is $1.25 and Japadog is $5.55, 
+what is the least amount of each type food in the box? Answer in #Lay's,#japadog.
+    <form>
+      
+		<div>
+            <label for="answer17">Answer:</label>
+            <input type="value" name="answer17" id="answer17" onkeyup="checkPass17(); return false;"><br>
+            <span id="confirmMessage17" class="confirmMessage17"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag18">
+<span> Q18: You open the box. In it, you find a note. 
+“Haha...I’m so good. The safe had a 1% probability of being broken into successfully, 
+and a 96% probability that the alarm will sound if I try to open it. But somehow I got away.” 
+Wow, they were good. What was the probability of the thief opening the safe successfully 
+without triggering the alarm?
+    <form>
+      
+		<div>
+            <label for="answer18">Answer:</label>
+            <input type="value" name="answer18" id="answer18" onkeyup="checkPass18(); return false;"><br>
+            <span id="confirmMessage18" class="confirmMessage18"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag19">
+<span> Q19: You find a huge phone and guess the password as 3141 and surprisingly you get it right! 
+In the calendar, you find the reminder “steal pie” so…  
+The song on the phone is on pause: Sam Smith’s Writing’s On The Wall. Find the number: PIE
+    <form>
+      
+		<div>
+            <label for="answer19">Answer:</label>
+            <input type="value" name="answer19" id="answer19" onkeyup="checkPass19(); return false;"><br>
+            <span id="confirmMessage19" class="confirmMessage19"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<div id= "tag20">
+<span> Q20: Change number from binary into decimal notation. 
+Suspect identification: Adam-40, Andrew-41, Angela-42, Ewan-43, Horman-44, 
+Jason-45, Joseph-46, Kate-47, Sean-48, Yean-49, enter the name of the thief.
+    <form>
+      
+		<div>
+            <label for="answer20">Answer:</label>
+            <input type="value" name="answer20" id="answer20" onkeyup="checkPass20(); return false;"><br>
+            <span id="confirmMessage20" class="confirmMessage15"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+
+<!-- JS stuff is down here bro -->
+
+<script>
+window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
+<!-- i dont format because im a cool kid -->
+document.body.onkeyup = function(f){
+    if(f.keyCode == 32){
+        initialize();
+    }
+}
+
+
+function stealth() {
+    var tag1 = document.getElementById('tag1');
+	var tag2 = document.getElementById('tag2');
+	var tag3 = document.getElementById('tag3');
+	var tag4 = document.getElementById('tag4');
+	var tag5 = document.getElementById('tag5');
+	var tag6 = document.getElementById('tag6');
+	var tag7 = document.getElementById('tag7');
+	var tag8 = document.getElementById('tag8');
+	var tag9 = document.getElementById('tag9');
+	var tag10 = document.getElementById('tag10');
+	var tag11 = document.getElementById('tag11');
+	var tag12 = document.getElementById('tag12');
+	var tag13 = document.getElementById('tag13');
+	var tag14 = document.getElementById('tag14');
+	var tag15 = document.getElementById('tag15');
+	var tag16 = document.getElementById('tag16');
+	var tag17 = document.getElementById('tag17');
+	var tag18 = document.getElementById('tag18');
+	var tag19 = document.getElementById('tag19');
+	var tag20 = document.getElementById('tag20');
+	var l1 = document.getElementById('l1');
+	var l2 = document.getElementById('l2');
+	var l3 = document.getElementById('l3');
+	var l4 = document.getElementById('l4');
+	var l5 = document.getElementById('l5');
+	if (l1.style.display === 'none') {
+        l1.style.display = 'block';
+    } else {
+        l1.style.display = 'none';
+    }
+	if (l2.style.display === 'none') {
+        l2.style.display = 'block';
+    } else {
+        l2.style.display = 'none';
+    }
+	if (l3.style.display === 'none') {
+        l3.style.display = 'block';
+    } else {
+        l3.style.display = 'none';
+    }
+	if (l4.style.display === 'none') {
+        l4.style.display = 'block';
+    } else {
+        l4.style.display = 'none';
+    }
+	if (l5.style.display === 'none') {
+        l5.style.display = 'block';
+    } else {
+        l5.style.display = 'none';
+    }
+	if (tag1.style.display === 'none') {
+        tag1.style.display = 'block';
+    } else {
+        tag1.style.display = 'none';
+    }
+	if (tag2.style.display === 'none') {
+        tag2.style.display = 'block';
+    } else {
+        tag2.style.display = 'none';
+    }
+	if (tag3.style.display === 'none') {
+        tag3.style.display = 'block';
+    } else {
+        tag3.style.display = 'none';
+    }if (tag4.style.display === 'none') {
+        tag4.style.display = 'block';
+    } else {
+        tag4.style.display = 'none';
+    }
+	if (tag5.style.display === 'none') {
+        tag5.style.display = 'block';
+    } else {
+        tag5.style.display = 'none';
+    }
+	if (tag6.style.display === 'none') {
+        tag6.style.display = 'block';
+    } else {
+        tag6.style.display = 'none';
+    }
+	if (tag7.style.display === 'none') {
+        tag7.style.display = 'block';
+    } else {
+        tag7.style.display = 'none';
+    }
+	if (tag8.style.display === 'none') {
+        tag8.style.display = 'block';
+    } else {
+        tag8.style.display = 'none';
+    }
+	if (tag9.style.display === 'none') {
+        tag9.style.display = 'block';
+    } else {
+        tag9.style.display = 'none';
+    }
+	if (tag10.style.display === 'none') {
+        tag10.style.display = 'block';
+    } else {
+        tag10.style.display = 'none';
+    }
+	if (tag11.style.display === 'none') {
+        tag11.style.display = 'block';
+    } else {
+        tag11.style.display = 'none';
+    }
+	if (tag12.style.display === 'none') {
+        tag12.style.display = 'block';
+    } else {
+        tag12.style.display = 'none';
+    }
+	if (tag13.style.display === 'none') {
+        tag13.style.display = 'block';
+    } else {
+        tag13.style.display = 'none';
+    }
+	if (tag14.style.display === 'none') {
+        tag14.style.display = 'block';
+    } else {
+        tag14.style.display = 'none';
+    }
+	if (tag15.style.display === 'none') {
+        tag15.style.display = 'block';
+    } else {
+        tag15.style.display = 'none';
+    }
+	if (tag16.style.display === 'none') {
+        tag16.style.display = 'block';
+    } else {
+        tag16.style.display = 'none';
+    }
+	if (tag17.style.display === 'none') {
+        tag17.style.display = 'block';
+    } else {
+        tag17.style.display = 'none';
+    }
+	if (tag18.style.display === 'none') {
+        tag18.style.display = 'block';
+    } else {
+        tag18.style.display = 'none';
+    }
+	if (tag19.style.display === 'none') {
+        tag19.style.display = 'block';
+    } else {
+        tag19.style.display = 'none';
+    }
+	if (tag20.style.display === 'none') {
+        tag20.style.display = 'block';
+    } else {
+        tag20.style.display = 'none';
+    }
+}
+
+function initialize()
+{
+	setTimeout(load1, 1000)
+	setTimeout(load2, 2000)
+	setTimeout(load3, 3000)
+	setTimeout(load4, 5000)
+	setTimeout(load5, 6000)
+	setTimeout(load6, 7500)
+}
+function load1()
+{
+	document.getElementById("l1").style.display="block";
+}
+function load2()
+{
+	document.getElementById("l2").style.display="block";
+}
+function load3()
+{
+	document.getElementById("l3").style.display="block";
+}
+function load4()
+{
+	document.getElementById("l4").style.display="block";
+}
+function load5()
+{
+	document.getElementById("l5").style.display="block";
+}
+
+function load6()
+{
+	document.getElementById("tag1").style.display="block";
+}
+
+
+function checkPass1()
+{
+    var message1 = document.getElementById('confirmMessage1');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer1.value == "we accept"){
+		tag2.style.display = 'block';
+		answer1.style.backgroundColor = goodColor;
+		message1.style.color = goodColor;
+        message1.innerHTML = "Begin."
+	}
+	else if(answer1.value == "accept"){
+		tag2.style.display = 'block';
+		answer1.style.backgroundColor = goodColor;
+		message1.style.color = goodColor;
+        message1.innerHTML = "Begin."
+	}
+	else{
+		answer1.style.backgroundColor = badColor;
+		}
+}  
+
+function checkPass2()
+{
+    var message2 = document.getElementById('confirmMessage2');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer2.value == 4208){
+		tag3.style.display = 'block';
+		answer2.style.backgroundColor = goodColor;
+		message2.style.color = goodColor;
+        message2.innerHTML = "That is correct!"
+	}
+	else{
+		answer2.style.backgroundColor = badColor;
+		message2.style.color = badColor;
+        message2.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass3()
+{
+    var message3 = document.getElementById('confirmMessage3');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer3.value == 7){
+		tag4.style.display = 'block';
+		answer3.style.backgroundColor = goodColor;
+		message3.style.color = goodColor;
+        message3.innerHTML = "That is correct!"
+	}
+	else{
+		answer3.style.backgroundColor = badColor;
+		message3.style.color = badColor;
+        message3.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass4()
+{
+    var message4 = document.getElementById('confirmMessage4');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer4.value == "50%"){
+		tag5.style.display = 'block';
+		answer4.style.backgroundColor = goodColor;
+		message4.style.color = goodColor;
+        message4.innerHTML = "That is correct!"
+	}
+	else if(answer4.value == "0.5"){
+		tag5.style.display = 'block';
+		answer4.style.backgroundColor = goodColor;
+		message4.style.color = goodColor;
+        message4.innerHTML = "That is correct!"
+	}
+	else if(answer4.value == "1/2"){
+		tag5.style.display = 'block';
+		answer4.style.backgroundColor = goodColor;
+		message4.style.color = goodColor;
+        message4.innerHTML = "That is correct!"
+	}
+	else{
+		answer4.style.backgroundColor = badColor;
+		message4.style.color = badColor;
+        message4.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass5()
+{
+    var message5 = document.getElementById('confirmMessage5');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer5.value == 1){
+		tag6.style.display = 'block';
+		answer5.style.backgroundColor = goodColor;
+		message5.style.color = goodColor;
+        message5.innerHTML = "That is correct!"
+	}
+	else{
+		answer5.style.backgroundColor = badColor;
+		message5.style.color = badColor;
+        message5.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass6()
+{
+    var message6 = document.getElementById('confirmMessage6');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer6.value == 1){
+		tag7.style.display = 'block';
+		answer6.style.backgroundColor = goodColor;
+		message6.style.color = goodColor;
+        message6.innerHTML = "That is correct!"
+	}
+	else{
+		answer6.style.backgroundColor = badColor;
+		message6.style.color = badColor;
+        message6.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass7()
+{
+    var message7 = document.getElementById('confirmMessage7');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer7.value == "witness"){
+		tag8.style.display = 'block';
+		answer7.style.backgroundColor = goodColor;
+		message7.style.color = goodColor;
+        message7.innerHTML = "That is correct!"
+	}
+	else{
+		answer7.style.backgroundColor = badColor;
+		message7.style.color = badColor;
+        message7.innerHTML = "Incorrect. Please try again."
+		}
+} 
+
+function checkPass8()
+{
+    var message8 = document.getElementById('confirmMessage8');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer8.value == 1){
+		tag9.style.display = 'block';
+		answer8.style.backgroundColor = goodColor;
+		message8.style.color = goodColor;
+        message8.innerHTML = "That is correct!"
+	}
+	else{
+		answer8.style.backgroundColor = badColor;
+		message8.style.color = badColor;
+        message8.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass9()
+{
+    var message9 = document.getElementById('confirmMessage9');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer9.value == 1){
+		tag10.style.display = 'block';
+		answer9.style.backgroundColor = goodColor;
+		message9.style.color = goodColor;
+        message9.innerHTML = "That is correct!"
+	}
+	else{
+		answer9.style.backgroundColor = badColor;
+		message9.style.color = badColor;
+        message9.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass10()
+{
+    var message10 = document.getElementById('confirmMessage10');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer10.value == 1){
+		tag11.style.display = 'block';
+		answer10.style.backgroundColor = goodColor;
+		message10.style.color = goodColor;
+        message10.innerHTML = "That is correct!"
+	}
+	else{
+		answer10.style.backgroundColor = badColor;
+		message10.style.color = badColor;
+        message10.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass11()
+{
+    var message11 = document.getElementById('confirmMessage11');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer11.value == 1){
+		tag12.style.display = 'block';
+		answer11.style.backgroundColor = goodColor;
+		message11.style.color = goodColor;
+        message11.innerHTML = "That is correct!"
+	}
+	else{
+		answer11.style.backgroundColor = badColor;
+		message11.style.color = badColor;
+        message11.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass12()
+{
+    var message12 = document.getElementById('confirmMessage12');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer12.value == 1){
+		tag13.style.display = 'block';
+		answer12.style.backgroundColor = goodColor;
+		message12.style.color = goodColor;
+        message12.innerHTML = "That is correct!"
+	}
+	else{
+		answer12.style.backgroundColor = badColor;
+		message12.style.color = badColor;
+        message12.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass13()
+{
+    var message13 = document.getElementById('confirmMessage13');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer13.value == 1){
+		tag14.style.display = 'block';
+		answer13.style.backgroundColor = goodColor;
+		message13.style.color = goodColor;
+        message13.innerHTML = "That is correct!"
+	}
+	else{
+		answer13.style.backgroundColor = badColor;
+		message13.style.color = badColor;
+        message13.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass14()
+{
+    var message14 = document.getElementById('confirmMessage14');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer14.value == 1){
+		tag15.style.display = 'block';
+		answer14.style.backgroundColor = goodColor;
+		message14.style.color = goodColor;
+        message14.innerHTML = "That is correct!"
+	}
+	else{
+		answer14.style.backgroundColor = badColor;
+		message14.style.color = badColor;
+        message14.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass15()
+{
+    var message15 = document.getElementById('confirmMessage15');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer15.value == 1){
+		tag16.style.display = 'block';
+		answer15.style.backgroundColor = goodColor;
+		message15.style.color = goodColor;
+        message15.innerHTML = "That is correct!"
+	}
+	else{
+		answer15.style.backgroundColor = badColor;
+		message15.style.color = badColor;
+        message15.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass16()
+{
+    var message16 = document.getElementById('confirmMessage16');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer16.value == 1){
+		tag17.style.display = 'block';
+		answer16.style.backgroundColor = goodColor;
+		message16.style.color = goodColor;
+        message16.innerHTML = "That is correct!"
+	}
+	else{
+		answer16.style.backgroundColor = badColor;
+		message16.style.color = badColor;
+        message16.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass17()
+{
+    var message17 = document.getElementById('confirmMessage17');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer17.value == 1){
+		tag18.style.display = 'block';
+		answer17.style.backgroundColor = goodColor;
+		message17.style.color = goodColor;
+        message17.innerHTML = "That is correct!"
+	}
+	else{
+		answer17.style.backgroundColor = badColor;
+		message17.style.color = badColor;
+        message17.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass18()
+{
+    var message18 = document.getElementById('confirmMessage18');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer18.value == 1){
+		tag19.style.display = 'block';
+		answer18.style.backgroundColor = goodColor;
+		message18.style.color = goodColor;
+        message18.innerHTML = "That is correct!"
+	}
+	else{
+		answer18.style.backgroundColor = badColor;
+		message18.style.color = badColor;
+        message18.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass19()
+{
+    var message19 = document.getElementById('confirmMessage19');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer19.value == 1){
+		tag20.style.display = 'block';
+		answer19.style.backgroundColor = goodColor;
+		message19.style.color = goodColor;
+        message19.innerHTML = "That is correct!"
+	}
+	else{
+		answer19.style.backgroundColor = badColor;
+		message19.style.color = badColor;
+        message19.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass20()
+{
+    var message20 = document.getElementById('confirmMessage20');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer20.value == 1){
+		answer20.style.backgroundColor = goodColor;
+		message20.style.color = goodColor;
+        message20.innerHTML = "That is correct!FINALLY IM DONE KINDA NOT RLY WE NEED SMTG TO SAY HERE FOR THE END"
+	}
+	else{
+		answer20.style.backgroundColor = badColor;
+		message20.style.color = badColor;
+        message20.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+
+</script>
+
+
+</body>
+</html>
