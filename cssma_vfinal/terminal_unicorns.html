@@ -1,0 +1,625 @@
+<!DOCTYPE HTML>
+<html> 
+ <!-- Current situation: everything is very very messy
+ 
+ TESTING PURPOSES ONLY: q number is answer-->
+
+ <style>
+body { 
+    background: #000000;
+	color: white;
+}
+* {
+ font-size: 100%;
+ font-family: Courier New;
+ }
+ 
+
+</style>
+
+
+<head>
+
+
+</head>
+<body  onload="stealth()">
+
+<div id= "l1">Entering JNB servers...</div>
+<div id= "l2">Retrieving files...</div>
+<div id= "l3">Decrypting...</div>
+<div id= "l4">Initializing...</div>
+<div id= "l5">Ready.</div>
+
+<br>
+
+<div id= "tag1">
+<span> Clue 1: You’ve reached the end of the stairway to mathematical success… where is that again?
+
+    <form>
+    
+		<div>
+            <label for="answer1">Answer:</label>
+            <input type="value" name="answer1" id="answer1" onkeyup="checkPass1(); return false;"><br>
+            <span id="confirmMessage1" class="confirmMessage1"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+
+<br>
+
+<div id= "tag2">
+<span> Clue 2: When life gives you lemons, buy lemonade here to quench your thirst.
+
+    <form>
+      
+		<div>
+            <label for="answer2">Answer:</label>
+            <input type="value" name="answer2" id="answer2" onkeyup="checkPass2(); return false;"><br>
+            <span id="confirmMessage2" class="confirmMessage2"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag3">
+<span> Clue 3: What’s the Riddle of the Week this time?
+
+    <form>
+      
+		<div>
+            <label for="answer3">Answer:</label>
+            <input type="value" name="answer3" id="answer3" onkeyup="checkPass3(); return false;"><br>
+            <span id="confirmMessage3" class="confirmMessage3"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag4">
+<span> Clue 4: Where to? Wood-n’t miss it even if I tried!
+
+    <form>
+      
+		<div>
+            <label for="answer4">Answer:</label>
+            <input type="value" name="answer4" id="answer4" onkeyup="checkPass4(); return false;"><br>
+            <span id="confirmMessage4" class="confirmMessage4"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag5">
+<span> Clue 5: This is my favourite English quote: “Life is larger than you’ll ever know.”
+
+    <form>
+      
+		<div>
+            <label for="answer5">Answer:</label>
+            <input type="value" name="answer5" id="answer5" onkeyup="checkPass5(); return false;"><br>
+            <span id="confirmMessage5" class="confirmMessage5"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag6">
+<span> Clue 6: SOLVE THE CHEMYSTERY of the lockers!
+
+    <form>
+      
+		<div>
+            <label for="answer6">Answer:</label>
+            <input type="value" name="answer6" id="answer6" onkeyup="checkPass6(); return false;"><br>
+            <span id="confirmMessage6" class="confirmMessage6"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag7">
+<span> Clue 7: Oh dear, look at that lunch lineup! A group of 10 friends decided to each have a CLIF Bar and a bottle of Minute Maid for lunch instead...how much do they need to pay again? (don’t include dollar sign)
+
+    <form>
+      
+		<div>
+            <label for="answer7">Answer:</label>
+            <input type="value" name="answer7" id="answer7" onkeyup="checkPass7(); return false;"><br>
+            <span id="confirmMessage7" class="confirmMessage7"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag8">
+<span> Clue 8: There’s not muchroom up here because there is a giant mushroom!
+
+    <form>
+      
+		<div>
+            <label for="answer8">Answer:</label>
+            <input type="value" name="answer8" id="answer8" onkeyup="checkPass8(); return false;"><br>
+            <span id="confirmMessage8" class="confirmMessage8"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag9">
+<span> Clue 9: This place is sew fun!
+
+
+    <form>
+      
+		<div>
+            <label for="answer9">Answer:</label>
+            <input type="value" name="answer9" id="answer9" onkeyup="checkPass9(); return false;"><br>
+            <span id="confirmMessage9" class="confirmMessage9"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag10">
+<span> Clue 10: Go up this staircase, hidden from plain view when you walk through the halls…
+
+    <form>
+      
+		<div>
+            <label for="answer10">Answer:</label>
+            <input type="value" name="answer10" id="answer10" onkeyup="checkPass10(); return false;"><br>
+            <span id="confirmMessage10" class="confirmMessage10"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag11">
+<span> Clue 11: Between the inside-outside and the books…
+
+    <form>
+      
+		<div>
+            <label for="answer11">Answer:</label>
+            <input type="value" name="answer11" id="answer11" onkeyup="checkPass11(); return false;"><br>
+            <span id="confirmMessage11" class="confirmMessage11"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+<div id= "tag12">
+<span> Clue 12: Let’s get down to BUSINESS.
+
+
+    <form>
+      
+		<div>
+            <label for="answer12">Answer:</label>
+            <input type="value" name="answer12" id="answer12" onkeyup="checkPass12(); return false;"><br>
+            <span id="confirmMessage12" class="confirmMessage12"></span>
+        </div>
+        
+    </form>
+</span>
+</div>
+
+<br>
+
+
+<!-- JS stuff is down here -->
+
+<script>
+// at this point, i trust you to know how to troubleshoot this. if it aint broke dont go fixin it
+window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
+
+//document.onclick=
+        //initialize;
+		
+setTimeout(initialize(), 1500);
+    
+
+function stealth() {
+    var tag1 = document.getElementById('tag1');
+	var tag2 = document.getElementById('tag2');
+	var tag3 = document.getElementById('tag3');
+	var tag4 = document.getElementById('tag4');
+	var tag5 = document.getElementById('tag5');
+	var tag6 = document.getElementById('tag6');
+	var tag7 = document.getElementById('tag7');
+	var tag8 = document.getElementById('tag8');
+	var tag9 = document.getElementById('tag9');
+	var tag10 = document.getElementById('tag10');
+	var tag11 = document.getElementById('tag11');
+	var tag12 = document.getElementById('tag12');
+	var l1 = document.getElementById('l1');
+	var l2 = document.getElementById('l2');
+	var l3 = document.getElementById('l3');
+	var l4 = document.getElementById('l4');
+	var l5 = document.getElementById('l5');
+	if (l1.style.display === 'none') {
+        l1.style.display = 'block';
+    } else {
+        l1.style.display = 'none';
+    }
+	if (l2.style.display === 'none') {
+        l2.style.display = 'block';
+    } else {
+        l2.style.display = 'none';
+    }
+	if (l3.style.display === 'none') {
+        l3.style.display = 'block';
+    } else {
+        l3.style.display = 'none';
+    }
+	if (l4.style.display === 'none') {
+        l4.style.display = 'block';
+    } else {
+        l4.style.display = 'none';
+    }
+	if (l5.style.display === 'none') {
+        l5.style.display = 'block';
+    } else {
+        l5.style.display = 'none';
+    }
+	if (tag1.style.display === 'none') {
+        tag1.style.display = 'block';
+    } else {
+        tag1.style.display = 'none';
+    }
+	if (tag2.style.display === 'none') {
+        tag2.style.display = 'block';
+    } else {
+        tag2.style.display = 'none';
+    }
+	if (tag3.style.display === 'none') {
+        tag3.style.display = 'block';
+    } else {
+        tag3.style.display = 'none';
+    }if (tag4.style.display === 'none') {
+        tag4.style.display = 'block';
+    } else {
+        tag4.style.display = 'none';
+    }
+	if (tag5.style.display === 'none') {
+        tag5.style.display = 'block';
+    } else {
+        tag5.style.display = 'none';
+    }
+	if (tag6.style.display === 'none') {
+        tag6.style.display = 'block';
+    } else {
+        tag6.style.display = 'none';
+    }
+	if (tag7.style.display === 'none') {
+        tag7.style.display = 'block';
+    } else {
+        tag7.style.display = 'none';
+    }
+	if (tag8.style.display === 'none') {
+        tag8.style.display = 'block';
+    } else {
+        tag8.style.display = 'none';
+    }
+	if (tag9.style.display === 'none') {
+        tag9.style.display = 'block';
+    } else {
+        tag9.style.display = 'none';
+    }
+	if (tag10.style.display === 'none') {
+        tag10.style.display = 'block';
+    } else {
+        tag10.style.display = 'none';
+    }
+	if (tag11.style.display === 'none') {
+        tag11.style.display = 'block';
+    } else {
+        tag11.style.display = 'none';
+    }
+	if (tag12.style.display === 'none') {
+        tag12.style.display = 'block';
+    } else {
+        tag12.style.display = 'none';
+    }
+}
+
+function initialize()
+{
+	setTimeout(load1, 1000)
+	setTimeout(load2, 2000)
+	setTimeout(load3, 3000)
+	setTimeout(load4, 5000)
+	setTimeout(load5, 6000)
+	setTimeout(load6, 7500)
+}
+function load1()
+{
+	document.getElementById("l1").style.display="block";
+}
+function load2()
+{
+	document.getElementById("l2").style.display="block";
+}
+function load3()
+{
+	document.getElementById("l3").style.display="block";
+}
+function load4()
+{
+	document.getElementById("l4").style.display="block";
+}
+function load5()
+{
+	document.getElementById("l5").style.display="block";
+}
+
+function load6()
+{
+	document.getElementById("tag1").style.display="block";
+}
+
+
+function checkPass1()
+{
+    var message1 = document.getElementById('confirmMessage1');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer1.value == "Symbol"){
+		tag2.style.display = 'block';
+		answer1.style.backgroundColor = goodColor;
+		message1.style.color = goodColor;
+        message1.innerHTML = "That is correct!"
+	}
+	else{
+		answer1.style.backgroundColor = badColor;
+		}
+}  
+
+function checkPass2()
+{
+    var message2 = document.getElementById('confirmMessage2');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer2.value == "Caution"){
+		tag3.style.display = 'block';
+		answer2.style.backgroundColor = goodColor;
+		message2.style.color = goodColor;
+        message2.innerHTML = "That is correct!"
+	}
+	else{
+		answer2.style.backgroundColor = badColor;
+		message2.style.color = badColor;
+        message2.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass3()
+{
+    var message3 = document.getElementById('confirmMessage3');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer3.value == "Trigonometry"){
+		tag4.style.display = 'block';
+		answer3.style.backgroundColor = goodColor;
+		message3.style.color = goodColor;
+        message3.innerHTML = "That is correct!"
+	}
+	else{
+		answer3.style.backgroundColor = badColor;
+		message3.style.color = badColor;
+        message3.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass4()
+{
+    var message4 = document.getElementById('confirmMessage4');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer4.value == "Munich"){
+		tag5.style.display = 'block';
+		answer4.style.backgroundColor = goodColor;
+		message4.style.color = goodColor;
+        message4.innerHTML = "That is correct!"
+	}
+	else{
+		answer4.style.backgroundColor = badColor;
+		message4.style.color = badColor;
+        message4.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass5()
+{
+    var message5 = document.getElementById('confirmMessage5');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer5.value == "Adventure"){
+		tag6.style.display = 'block';
+		answer5.style.backgroundColor = goodColor;
+		message5.style.color = goodColor;
+        message5.innerHTML = "That is correct!"
+	}
+	else{
+		answer5.style.backgroundColor = badColor;
+		message5.style.color = badColor;
+        message5.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass6()
+{
+    var message6 = document.getElementById('confirmMessage6');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer6.value == "zany"){
+		tag7.style.display = 'block';
+		answer6.style.backgroundColor = goodColor;
+		message6.style.color = goodColor;
+        message6.innerHTML = "That is correct!"
+	}
+	else{
+		answer6.style.backgroundColor = badColor;
+		message6.style.color = badColor;
+        message6.innerHTML = "Incorrect. Please try again."
+		}
+}  
+
+function checkPass7()
+{
+    var message7 = document.getElementById('confirmMessage7');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer7.value == "47.5"){
+		tag8.style.display = 'block';
+		answer7.style.backgroundColor = goodColor;
+		message7.style.color = goodColor;
+        message7.innerHTML = "That is correct!"
+	}
+	else{
+		answer7.style.backgroundColor = badColor;
+		message7.style.color = badColor;
+        message7.innerHTML = "Incorrect. Please try again."
+		}
+} 
+
+function checkPass8()
+{
+    var message8 = document.getElementById('confirmMessage8');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer8.value == "Believe"){
+		tag9.style.display = 'block';
+		answer8.style.backgroundColor = goodColor;
+		message8.style.color = goodColor;
+        message8.innerHTML = "That is correct!"
+	}
+	else{
+		answer8.style.backgroundColor = badColor;
+		message8.style.color = badColor;
+        message8.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass9()
+{
+    var message9 = document.getElementById('confirmMessage9');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer9.value == 5059){
+		tag10.style.display = 'block';
+		answer9.style.backgroundColor = goodColor;
+		message9.style.color = goodColor;
+        message9.innerHTML = "That is correct!"
+	}
+	else{
+		answer9.style.backgroundColor = badColor;
+		message9.style.color = badColor;
+        message9.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass10()
+{
+    var message10 = document.getElementById('confirmMessage10');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer10.value == "Canada150"){
+		tag11.style.display = 'block';
+		answer10.style.backgroundColor = goodColor;
+		message10.style.color = goodColor;
+        message10.innerHTML = "That is correct!"
+	}
+	else{
+		answer10.style.backgroundColor = badColor;
+		message10.style.color = badColor;
+        message10.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass11()
+{
+    var message11 = document.getElementById('confirmMessage11');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer11.value == 55){
+		tag12.style.display = 'block';
+		answer11.style.backgroundColor = goodColor;
+		message11.style.color = goodColor;
+        message11.innerHTML = "That is correct!"
+	}
+	else{
+		answer11.style.backgroundColor = badColor;
+		message11.style.color = badColor;
+        message11.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+function checkPass12()
+{
+    var message12 = document.getElementById('confirmMessage12');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    
+	if(answer12.value == "Argon"){
+		answer12.style.backgroundColor = goodColor;
+		message12.style.color = goodColor;
+        message12.innerHTML = "Congratulations, you have completed the trial! DO NOT CLOSE THE PAGE for verification purposes. Please return to the operations base to report ASAP."
+	}
+	else{
+		answer12.style.backgroundColor = badColor;
+		message12.style.color = badColor;
+        message12.innerHTML = "Incorrect. Please try again."
+		}
+}
+
+
+</script>
+
+
+</body>
+</html>

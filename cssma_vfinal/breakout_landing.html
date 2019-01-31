@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html> 
+ <!-- obatined JQuery files from google.com   praise google
+ front section all css
+ 
+ -->
+
+ 
+ 
+ <style>
+body { 
+    background: #000000;
+	color: white;
+}
+* {
+ font-size: 100%;
+ font-family: Courier New;
+ }
+input[type=text] {
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+	color: white
+}
+input[type=button]{
+background-color: #000000;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+
+
+</style>
+
+
+<div id="typewriter"></div>
+
+
+<!-- if you haven't noticed already, only cred1 (in password box) matters!  -->
+
+<div id="theform" style="visibility: hidden"><form>
+      Username:<input type="text">
+ <br>
+    Password:<input type="text" id="cred1">
+ <input type="button" value="submit" onclick="analyze()">
+  <span id="confirmMessage1" class="confirmMessage1"></span>
+    </form></div>
+
+
+
+
+<script>
+window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
+
+function showIt() {
+  document.getElementById("theform").style.visibility = "visible";
+}
+setTimeout("showIt()", 17500);                //adjust as needed
+//wierd shit, dont try to fix this. if you want text effects on the main breakout pls wait till i do it
+var str = "<p>Accessing service host @192.251.226.206...                   <br> WARNING: Do NOT reload page! Your connection will be lost.        <br> Welcome to Breakout_Terminal: <br>Please enter security credentials. </p>  ",
+    i = 0,
+    isTag,
+    text;
+
+(function type() {
+    text = str.slice(0, ++i);
+    if (text === str) return;
+    
+    document.getElementById('typewriter').innerHTML = text;
+
+    var char = text.slice(-1);
+    if( char === '<' ) isTag = true;
+    if( char === '>' ) isTag = false;
+
+    if (isTag) return type();
+    setTimeout(type, 80);
+}());
+
+
+
+
+
+var cred1 = document.getElementById('cred1');
+var badColor = "#ff6666";
+var message1 = document.getElementById('confirmMessage1');
+function analyze() {
+	if(cred1.value == "password"){
+		window.location="http://www.w3.org";
+	}
+	else if(cred1.value == "Password"){
+		window.location="breakout_ipad_compatible.html";
+	}
+	else{
+		cred1.style.backgroundColor = badColor;
+		message1.style.color = badColor;
+        message1.innerHTML = "Invalid user password."
+		}
+}  
+
+</script>
